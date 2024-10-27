@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-section {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 1200px; /* Same as experience section */
+    margin: 0 auto;    /* Center alignment */
+}
+
+.contact-title h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+    text-align: center; /* Center the title for consistency */
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-item h3 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.contact-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-item {
+        margin-bottom: 20px;
+    }
+}

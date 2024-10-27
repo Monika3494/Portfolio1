@@ -1,0 +1,38 @@
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.courses-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem; /* Adjust font size for the heading */
+}
+
+.course-box {
+  background-color: #f8f9fa; /* Light background color */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 10px;
+  padding: 20px;
+  width: 250px; /* Fixed width for each box */
+  transition: transform 0.2s, box-shadow 0.2s; /* Transition effect */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-align: center; /* Center text */
+}
+
+.course-image {
+  width: 100%; /* Responsive image */
+  border-radius: 8px; /* Rounded corners for the image */
+  margin-bottom: 10px; /* Spacing below the image */
+}
+
+.course-box:hover {
+  transform: translateY(-5px); /* Move the box up */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  background-color: #e2e6ea; /* Darker background on hover */
+}

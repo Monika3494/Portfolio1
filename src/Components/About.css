@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+@media (max-width: 768px) {
+    .about {
+      flex-direction: column;
+    }
+  }
+
+  .about-left {
+    flex: 1;
+  }
+  
+  .about-photo {
+    max-width: 250px; /* Adjust the size to fit your design */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-right {
+    flex: 2;
+    padding-left: 40px;
+  }
+  
+  .about-right h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .about-right p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
