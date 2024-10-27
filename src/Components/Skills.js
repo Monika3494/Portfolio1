@@ -13,10 +13,10 @@ const Skills = () => {
     'SQL',
     'arduino',
     'AR-VR'
-  ];
+  ]; 
 
   return (
-    <section id="skills" className="skills">
+    <section id="skills" className="skills" >
       <h2>Skills</h2>
       <div className="skills-container">
         {skills.map((skill, index) => (
@@ -25,6 +25,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
+      
     </section>
   );
 };
